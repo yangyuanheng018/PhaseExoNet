@@ -7,7 +7,7 @@ The TESS light curves are preprocessed with each transit phase placed as channel
 [Data_preprocess](data_preprocess/)
 - [preprocess.py](data_preprocess/preprocess.py) downloading, detrending the light curves for the training-validation-test dataset.
 - [toi_preprocess.py](data_preprocess/toi_preprocess.py) downloading, detrending the light curves for the TOI dataset.
-- [process_lightcurve_with_two_cadence.py]((data_preprocess/process_lightcurve_with_two_cadence.py)) represent the light curve as an input representation.
+- [process_lightcurve_with_two_cadence.py](data_preprocess/process_lightcurve_with_two_cadence.py) represent the light curve as an input representation.
 
 [Models](models/)
 - [augment.py](models/augment.py) data augmentation methods
