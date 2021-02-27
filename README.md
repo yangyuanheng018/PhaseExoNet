@@ -16,8 +16,8 @@ The TESS light curves are preprocessed with each transit phase placed as channel
 - [train_model.py](models/train_model.py) model training and referring 
 - [test_results.py](models/test_results.py) averaging the cross validation results for the test set and show some results
 
-[Toi_results](toi_results/)
-- [toi_results.py](toi_results/toi_results.py) averaging the cross validation results for the TOIs and show some results
+[Toi_results](tois_results/)
+- [toi_results.py](tois_results/toi_results.py) averaging the cross validation results for the TOIs and show some results
 
 
 ## Preparing the data for the neural network
