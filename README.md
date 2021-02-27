@@ -25,7 +25,7 @@ Run ```python data_preprocess/preprocess.py``` to get 'train_80.npz' and 'test_2
 
 Run ```python data_preprocess/toi_preprocess.py``` to get 'tois.npz' in the 'model_input' folder.
 
-The above npz files can be obtained from [here](https://www.jianguoyun.com/p/DRlLOrUQ2J2gCRiE2OMD)
+The above npz files can be obtained from [here](https://www.jianguoyun.com/p/DRlLOrUQ2J2gCRiE2OMD).
 ## Model training and referring
 For example, run
 ```
