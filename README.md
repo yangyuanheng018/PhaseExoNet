@@ -23,7 +23,7 @@ The TESS light curves are preprocessed with each transit phase placed as channel
 ## Preparing the data for the neural network
 Run ```python data_preprocess/preprocess.py``` to get 'train_80.npz' and 'test_20.npz' in the 'model_input' folder.
 Run ```python data_preprocess/toi_preprocess.py``` to get 'tois.npz' in the 'model_input' folder.
-
+The above npz files can be obtained from [here](https://www.jianguoyun.com/p/DRlLOrUQ2J2gCRiE2OMD)
 ## Model training and referring
 For example, run
 ```
