@@ -9,20 +9,20 @@ The TESS light curves are preprocessed with each transit phase placed as channel
 - [toi_preprocess.py](data_preprocess/toi_preprocess.py) downloading, detrending the light curves for the TOI dataset.
 - [process_lightcurve_with_two_cadence.py]((data_preprocess/process_lightcurve_with_two_cadence.py)) represent the light curve as an input representation
 
-[models](models/)
+[Models](models/)
 - [augment.py](models/aument.py) data augmentation methods
 - [flcdatast.py](flcdatast.py) phase segmenting the light curves into channels for model training and referring
 - [models.py](models/models.py) neural network architecture
 - [train_model.py](models/train_model.py) model training and referring 
 - [test_results.py](models/test_results.py) averaging the cross validation results for the test set and show some results
 
-[toi_results](toi_results/)
+[Toi_results](toi_results/)
 - [toi_results.py](toi_results/toi_results.py) averaging the cross validation results for the TOIs and show some results
 
 
 ## Preparing the data for the neural network
-Run ```python ./data_preprocess/preprocess.py``` to get 'train_80.npz' and 'test_20.npz' in the 'model_input' folder.
-Run ```python ./data_preprocess/toi_preprocess.py``` to get 'tois.npz' in the 'model_input' folder.
+Run ```python data_preprocess/preprocess.py``` to get 'train_80.npz' and 'test_20.npz' in the 'model_input' folder.
+Run ```python data_preprocess/toi_preprocess.py``` to get 'tois.npz' in the 'model_input' folder.
 
 ## Model training and referring
 For example, run
