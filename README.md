@@ -4,19 +4,19 @@
 The TESS light curves are preprocessed with each transit phase placed as channels of the neural network input. And a neural network model is trained to detect signals of exoplanet with TESS 2-min cadence data.
 
 ## List of python files for this project
-[Data_preprocess](data_preprocess/)
+[data_preprocess](data_preprocess/)
 - [preprocess.py](data_preprocess/preprocess.py) downloading, detrending the light curves for the training-validation-test dataset.
 - [toi_preprocess.py](data_preprocess/toi_preprocess.py) downloading, detrending the light curves for the TOI dataset.
 - [process_lightcurve_with_two_cadence.py](data_preprocess/process_lightcurve_with_two_cadence.py) represent the light curve as an input representation.
 
-[Models](models/)
+[models](models/)
 - [augment.py](models/augment.py) data augmentation methods
 - [flcdataset.py](models/flcdataset.py) phase segmenting the light curves into channels for model training and referring.
 - [models.py](models/models.py) neural network architecture
 - [train_model.py](models/train_model.py) model training and referring 
 - [test_results.py](models/test_results.py) averaging the cross validation results for the test set and show some results.
 
-[Toi_results](tois_results/)
+[toi_results](tois_results/)
 - [toi_results.py](tois_results/toi_results.py) averaging the cross validation results for the TOIs and show some results.
 
 
